@@ -13,6 +13,13 @@ body {
 }
 
 html{
+
+  font-family: "Noto Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+
   height: 100%;
   width: 100%;
 }
@@ -25,7 +32,7 @@ html{
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: rgb(189, 235, 235);
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 60px;
